@@ -19,23 +19,3 @@ exports[`<Controls /> matches snapshot 1`] = `
   </button>
 </div>
 `;
-
-exports[`<Speak /> matches snapshot 1`] = `
-<div
-  className="controls panel"
->
-  <button
-    className="toggle-btn"
-    data-testid="lockUnlock"
-    disabled={true}
-  >
-    Lock Gate
-  </button>
-  <button
-    className="toggle-btn"
-    data-testid="openClose"
-  >
-    Close Gate
-  </button>
-</div>
-`;
